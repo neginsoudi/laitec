@@ -1,0 +1,93 @@
+.sidebar{
+    background-color: rgb(112, 112, 112);
+}
+.sidebar img{
+    width: 140px;
+    height: 140px;
+    display:block;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 10%;
+    margin-bottom: 40%;
+}
+.sidebar p{
+    text-align: right;
+    color: white;
+    position: absolute;
+    width: 100%;
+    padding: 8px 0;
+    left: 0px;
+}
+.one{
+    top: 233px;
+}
+.two{
+    top: 266px;
+}
+.three{
+    top: 299px;
+}
+.sidebar p:hover{
+    background-color: rgba(128, 128, 128, 0.623);
+}
+.sidebar p i{
+    margin: 0 10px 0 30px;
+    font-size: 24px;
+}
+.content{
+    overflow: hidden;
+}
+.content button{
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+.user{
+    margin-top: 10%;
+}
+.user button{
+    margin-bottom: 15px;
+    background-color: rgb(206, 203, 203);
+}
+.personal-info{
+    background-color: rgb(245, 245, 245);
+    height: 70px;
+    text-align: right;
+}
+.personal-info p{
+    width: 10%;
+    float: right;
+    margin-top: 24px;
+}
+/* .drp1{
+    width: 150px;
+    height: 40px;
+}
+.drp2{
+    width: 88px;
+    height: 40px;
+}
+.drp3{
+    width: 88px;
+    height: 40px;
+} */
+#drop{
+    appearance:none;      
+    background-color: rgb(218, 218, 218);
+    border: none;
+    margin-top: 13px;
+    margin-right: 170px;
+    padding: 10px 35px;
+}
+.fa-plus{
+    margin-top: 5%;
+    font-size: xx-large !important;
+    background-color: rgb(74, 238, 74);
+    border-radius: 60%;
+    padding: 6px 11px;
+    color: honeydew;
+    margin-left: 719px;
+}
+.plususer{
+    text-align: center;
+}

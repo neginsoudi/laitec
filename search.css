@@ -1,0 +1,52 @@
+.clearfix{
+    clear: both;
+    float: none;
+}
+/* لیست شغل ها */
+.jobs{
+    margin-top: 5%;
+}
+.jobs img{
+    float: right;
+    width:5%;
+    border-radius: 60%;
+
+}
+.jobs li:hover{
+    background-color: rgba(216, 216, 216, 0.473);
+}
+.jobs-description{
+    float: right;
+    width: 40%;
+    margin-right: 5px;
+}
+/* دکمه های موجود در هر شغل */
+.jobs .button{
+    float: left;
+    width: 35%;
+}
+.btn{
+    background-color: #6b6b6b;
+    border: none;
+    margin-top: 5%;
+}
+/* صفحه شمار */
+.pagination{
+width: 246px;
+margin: auto;
+margin-top: 10%;
+}
+.pagination  a:hover ,
+.pagination .active a{
+    color: rgb(112, 112, 112);
+    background-color:rgb(192, 192, 192);
+}
+.pagination a{
+    color:rgb(63, 61, 61) ;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: rgb(112, 112, 112) !important;
+    border-color: rgb(112, 112, 112) !important;
+}
